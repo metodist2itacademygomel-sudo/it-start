@@ -1,0 +1,58 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Агенты цифрового мира</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=JetBrains+Mono:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<div class="deco" aria-hidden="true">
+  <i style="--x:6%;--y:16%;--s:26px;--c:var(--sun);--a:12deg;--d:9s"></i>
+  <i style="--x:88%;--y:10%;--s:34px;--c:var(--grape);--a:30deg;--d:12s"></i>
+  <i style="--x:92%;--y:46%;--s:20px;--c:var(--mint);--r:50%;--d:8s"></i>
+  <i style="--x:3%;--y:52%;--s:30px;--c:var(--sky);--r:50%;--d:11s"></i>
+  <i style="--x:12%;--y:84%;--s:22px;--c:var(--berry);--a:20deg;--d:10s"></i>
+  <i style="--x:80%;--y:86%;--s:28px;--c:var(--sun);--a:45deg;--d:13s"></i>
+  <i style="--x:50%;--y:4%;--s:16px;--c:var(--mint);--a:15deg;--d:7s"></i>
+  <i style="--x:60%;--y:94%;--s:18px;--c:var(--grape);--r:50%;--d:9s"></i>
+</div>
+
+<div class="wrap">
+  <header>
+    <div class="top">
+      <p class="eyebrow">ITeen Academy · курс «IT старт»</p>
+      <button class="snd" id="snd" type="button" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z" fill="currentColor"/><path id="sndwave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0"/></svg>
+        <span id="sndtxt">Звук выключен</span>
+      </button>
+    </div>
+    <h1><span class="a">Агенты</span> <span class="b">цифрового</span> <span class="c">мира</span></h1>
+    <p class="lead" id="lead"></p>
+  </header>
+  <ol class="trail" id="trail" aria-label="Путь к сундуку"></ol>
+  <main id="stage"></main>
+  <!--TEACHER-START
+  <details class="teacher">
+    <summary>Для педагога</summary>
+    <ul>
+      <li>Прохождение занимает 22–25 минут: сейф около 4, шифр около 6, зарядка героя около 5, «правда или ложь» около 4, «волшебное зеркало» (симметрия) около 4, пазл около 2. За каждую миссию ребёнок получает кусочек пазла, из пяти кусочков складывается картинка с программой героя. Работа в Scratch идёт отдельно, после последнего экрана.</li>
+      <li>Заготовка Scratch (файл «Сундук_Агента.sb3»): герой, сундук и салют уже есть, программа героя пустая. Ученик собирает по картинке четыре блока: когда флажок нажат → идти 100 шагов → говорить «Сезам, откройся!» 2 секунды → следующий костюм. После этого сундук открывается. Открывать так: Scratch → Файл → Загрузить с компьютера. Если проект выложен на сайте Scratch, его ссылку нужно вписать в script.js, в строку SCRATCH_URL.</li>
+      <li>В миссии «Волшебное зеркало» нужно мышкой или пальцем закрасить крылья бабочки: вторая половина листа рисуется сама. Если крылья закрашены меньше чем наполовину, кнопка «Готово» не включится.</li>
+      <li>Звук по умолчанию выключен, чтобы в классе не было шума. Включается кнопкой справа вверху.</li>
+    </ul>
+    <div class="row">
+      <button class="btn ghost" data-jump="intro">Начало</button>
+      <button class="btn ghost" data-jump="1">Миссия 1</button>
+      <button class="btn ghost" data-jump="2">Миссия 2</button>
+      <button class="btn ghost" data-jump="3">Миссия 3</button>
+      <button class="btn ghost" data-jump="4">Миссия 4</button>
+      <button class="btn ghost" data-jump="5">Миссия 5</button>
+      <button class="btn ghost" data-jump="puz">Пазл</button>
+      <button class="btn ghost" data-jump="reset">Начать заново</button>
+    </div>
+  </details>
+  TEACHER-END-->
+</div>
+<script src="script.js"></script>
+
+</body></html>
