@@ -1090,7 +1090,7 @@
     go('done','Все районы проснулись! Осталось собрать программу и открыть сундук.');
     var mins=Math.max(1,Math.round((Date.now()-S.t0)/60000));
     var today=new Date().toLocaleDateString('ru-RU');
-    var url=SCRATCH_URL||'https://scratch.mit.edu/projects/1396188075/editor/';
+    var url=SCRATCH_URL||'https://scratch.mit.edu/projects/1398522787/editor/';
     mount('<section class="panel" style="--mc:var(--sun)">'+
       '<div class="stage-fin"><button type="button" class="chestwrap locked" id="cw" aria-label="Сундук заперт. Нажми на него.">'+chestLockedSVG()+'</button></div>'+
       '<header class="ph"><p class="tag">Все блоки найдены</p><h2>Агент '+esc(S.name)+', город проснулся!</h2><p>Все восемь заданий пройдены за '+mins+' мин. Но сундук всё ещё заперт: Хаос спрятал программу, которая его открывает. Эту программу соберёшь ты сам из блоков, которые лежат у тебя на столе.</p></header>'+
